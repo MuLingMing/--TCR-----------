@@ -1,0 +1,1 @@
+CDR3	Vgene	IndividualGroupID	CrossGroupID	SampleID

@@ -1,0 +1,53 @@
+nucleotide	aminoAcid	count (reads)	frequencyCount (%)	cdr3Length	vMaxResolved	vFamilyName	vGeneName	vGeneAllele	vFamilyTies	vGeneNameTies	vGeneAlleleTies	dMaxResolved	dFamilyName	dGeneName	dGeneAllele	dFamilyTies	dGeneNameTies	dGeneAlleleTies	jMaxResolved	jFamilyName	jGeneName	jGeneAllele	jFamilyTies	jGeneNameTies	jGeneAlleleTies	vDeletion	n1Insertion	d5Deletion	d3Deletion	n2Insertion	jDeletion	vIndex	n1Index	dIndex	n2Index	jIndex	estimatedNumberGenomes	sequenceStatus	cloneResolved	vOrphon	dOrphon	jOrphon	vFunction	dFunction	jFunction	fractionNucleated
+
+### 注释说明
+1. nucleotide：核苷酸序列
+2. aminoAcid：氨基酸序列
+3. count (reads)：计数（读取次数）
+4. frequencyCount (%)：频率计数（%）
+5. cdr3Length：CDR3长度
+6. vMaxResolved：v最大解析度
+7. vFamilyName：v家族名称
+8. vGeneName：v基因名称
+9. vGeneAllele：v基因等位基因
+10. vFamilyTies：v家族关系
+11. vGeneNameTies：v基因名称关系
+12. vGeneAlleleTies：v基因等位基因关系
+13. dMaxResolved：d最大解析度
+14. dFamilyName：d家族名称
+15. dGeneName：d基因名称
+16. dGeneAllele：d基因等位基因
+17. dFamilyTies：d家族关系
+18. dGeneNameTies：d基因名称关系
+19. dGeneAlleleTies：d基因等位基因关系
+20. jMaxResolved：j最大解析度
+21. jFamilyName：j家族名称
+22. jGeneName：j基因名称
+23. jGeneAllele：j基因等位基因
+24. jFamilyTies：j家族关系
+25. jGeneNameTies：j基因名称关系
+26. jGeneAlleleTies：j基因等位基因关系
+27. vDeletion：v缺失
+28. n1Insertion：n1插入
+29. d5Deletion：d5缺失
+30. d3Deletion：d3缺失
+31. n2Insertion：n2插入
+32. jDeletion：j缺失
+33. vIndex：v索引
+34. n1Index：n1索引
+35. dIndex：d索引
+36. n2Index：n2索引
+37. jIndex：j索引
+38. estimatedNumberGenomes：估计基因组数量
+39. sequenceStatus：序列状态
+40. cloneResolved：克隆解析度
+41. vOrphon：vorphon
+42. dOrphon：dorphon
+43. jOrphon：jorphon
+44. vFunction：v功能
+45. dFunction：d功能
+46. jFunction：j功能
+47. fractionNucleated：核分数
+
+这个表格主要用于分析免疫球蛋白重链的基因表达和功能。通过这个表格，可以了解不同基因和等位基因的表达水平、缺失和插入情况，以及它们在CDR3区域中的位置等信息。
+

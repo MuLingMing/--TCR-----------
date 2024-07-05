@@ -1,0 +1,34 @@
+{
+    "train": {
+        "ftumor": "./TrainingData/TumorCDR3.txt",
+        "feval_tumor": "./TrainingData/TumorCDR3_test.txt",
+        "fnormal": "./TrainingData/NormalCDR3.txt",
+        "feval_normal": "./TrainingData/NormalCDR3_test.txt"
+    },
+    "predict": {
+        "-r/-t": "-t",
+        "mod_path": "./DeepCAT_CHKP/tmp/",
+        "input_path": ["./SampleData/Control","./SampleData/Cancer"]
+    },
+    "iSMARTm": {
+        "tsv_path":"./TCR_repertoire_sequencing_data/",
+        "DDcor": "DDcor.txt",
+        "iSMARTm_options": {
+            "-d": "./iSMARTm_Input",
+            "-f": "",
+            "-F": "",
+            "-t": "7.5",
+            "-o": "./iSMARTm_Output",
+            "-g": "-6",
+            "-n": "1",
+            "-V": "Imgt_Human_TRBV.fasta",
+            "-W": "",
+            "-I": "",
+            "-C": "",
+            "-r": "",
+            "-v": "",
+            "-N": "1",
+            "-D": ""
+        }
+    }
+}
